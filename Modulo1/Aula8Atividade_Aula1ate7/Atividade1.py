@@ -2,7 +2,7 @@ nome = 'Lucas Farias'
 idade = 18
 altura = 1.72
 peso = 55.0
-ano_atual = 2020
+ano_atual = 2021
 ano_nascimento = ano_atual - idade
 imc = peso / altura**2
 
