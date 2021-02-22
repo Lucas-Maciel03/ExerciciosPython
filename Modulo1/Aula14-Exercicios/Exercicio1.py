@@ -6,12 +6,11 @@ inteiro, informe que não é um número inteiro.
 
 numero = input('Digite numero: ')
 
-try:
+if(numero.isdigit()):
     numero = int(numero)
-    res = numero % 2
-    if res != 0:
-        print(f'{numero} é impar')
-    else:
+    if numero % 2 == 0:
         print(f'{numero} é par')
-except:
-    print('ERROR')
+    else:
+        print(f'{numero} é impar')
+else:
+    print('Isso nao é um numero')

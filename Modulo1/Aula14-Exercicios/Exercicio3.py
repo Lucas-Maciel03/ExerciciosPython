@@ -9,7 +9,7 @@ qtd = len(nome)
 
 if qtd < 5:
     print('Seu nome é curto')
-elif qtd > 4 and qtd < 7:
+elif qtd < 7:
     print('Seu nome é normal')
 else:
     print('Seu nome é muito grande')
